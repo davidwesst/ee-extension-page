@@ -1,0 +1,3 @@
+- Migrate to use vite-based Storybook and confirm it all works
+- Setup unit tests that run the storybook tests
+- Setup CI/CD for the project
