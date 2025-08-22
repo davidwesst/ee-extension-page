@@ -1,10 +1,11 @@
+import React from 'react';
 import { withStyles } from '@ellucian/react-design-system/core/styles';
 import { EDSApplication } from '@ellucian/react-design-system/core';
 
-import CommonMatchingAppCard, { styles } from './CommonMatchingAppCard';
+import CommonMatchingAppPage, { styles } from './CommonMatchingAppPage';
 
 const meta = {
-  component: withStyles(styles)(CommonMatchingAppCard),
+  component: withStyles(styles)(CommonMatchingAppPage),
   decorators: [
     (Story) => (
       <div>
