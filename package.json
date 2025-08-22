@@ -5,7 +5,6 @@
   "main": "index.js",
   "private": true,
   "license": "UNLICENSED",
-  "overrides": { "react": "17.x", "react-dom": "17.x" },
   "scripts": {
     "lint": "npx eslint --ext .jsx,.js src",
     "build-dev": "webpack --progress --mode development --env verbose",
@@ -40,7 +39,7 @@
     "babel-plugin-rewire": "1.2.0",
     "cross-env": "7.0.2",
     "dotenv": "8.2.0",
-    "eslint": "8.8.0",
+    "eslint": "^8.57.1",
     "eslint-plugin-import": "2.25.4",
     "eslint-plugin-jsx-a11y": "6.5.1",
     "eslint-plugin-react": "7.28.0",
