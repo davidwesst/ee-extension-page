@@ -5,7 +5,9 @@
     "plugin:import/recommended",
     "plugin:jsx-a11y/recommended",
     "plugin:react/recommended",
-    "plugin:react-hooks/recommended"
+    "plugin:react-hooks/recommended",
+    "plugin:storybook/recommended",
+    "plugin:storybook/recommended"
   ],
   "parserOptions": {
     "babelOptions": {
@@ -30,10 +32,14 @@
       }
     },
     "react": {
-        "version": "detect"
+      "version": "detect"
     },
     "linkComponents": [
-        "Hyperlink", {"name": "Link", "linkAttribute": "to"}
+      "Hyperlink",
+      {
+        "name": "Link",
+        "linkAttribute": "to"
+      }
     ]
   },
   "env": {

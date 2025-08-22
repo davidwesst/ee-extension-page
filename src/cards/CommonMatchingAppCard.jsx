@@ -4,7 +4,7 @@ import { Typography, TextLink } from '@ellucian/react-design-system/core';
 import PropTypes from 'prop-types';
 import React from 'react';
 
-const styles = () => ({
+export const styles = () => ({
     card: {
         marginTop: 0,
         marginRight: spacing40,

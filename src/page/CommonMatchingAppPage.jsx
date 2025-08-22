@@ -18,13 +18,13 @@ import {
     usePageInfo
 } from '@ellucian/experience-extension-utils';
 
-const styles = () => ({
+export const styles = () => ({
     card: {
         margin: `0 ${spacing20}`
     }
 });
 
-const HomePage = (props) => {
+const CommonMatchingAppPage = (props) => {
     const { classes } = props;
     const { setPageTitle } = usePageControl();
 
@@ -62,8 +62,8 @@ const HomePage = (props) => {
     );
 };
 
-HomePage.propTypes = {
+CommonMatchingAppPage.propTypes = {
     classes: PropTypes.object.isRequired
 };
 
-export default withStyles(styles)(HomePage);
+export default withStyles(styles)(CommonMatchingAppPage);

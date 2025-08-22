@@ -17,3 +17,5 @@ client_report.xml
 tmp
 .vscode
 .eslintcache
+*storybook.log
+storybook-static
